@@ -117,21 +117,17 @@ PyYAML==5.4.1
 ### Saving my venv to github
 
 ```shell
-git@github.com:cjsteel/python3-venv-ansible-2.10.5.git
-```
-
-```shell
+cd /home/csteel/.venv/ansible-2.10.5
 echo "# python3-venv-ansible-2.10.5" >> README.md
+nano README.md
 git init
-git add README.md
+git add .
 git commit -m "initial commit"
 git branch -M main
 git remote add origin git@github.com:cjsteel/python3-venv-ansible-2.10.5.git
 git push -u origin main
 ```
 
-
-
-
+## Clone and venv test
 
 Copyright 2021 Christopher Steel (chris.steel@gmail.com) Apache License 2.0
